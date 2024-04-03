@@ -8,7 +8,10 @@ ENV MB_DB_FILE=/metabase-data/metabase.db
 # Create a directory for the SQLite database file
 RUN mkdir -p /metabase-data
 
-# Make the directory writable by Metabase user
+# Create the metabase user and group
+RUN groupadd -r metabase && useradd -r -g metabase metabase
+
+# Change ownership of the /metabase-data directory to metabase user/group
 RUN chown -R metabase:metabase /metabase-data
 
 # Expose the default Metabase port
