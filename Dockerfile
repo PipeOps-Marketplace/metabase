@@ -5,14 +5,13 @@ FROM metabase/metabase:latest
 ENV MB_DB_TYPE=sqlite
 ENV MB_DB_FILE=/metabase-data/metabase.db
 
+USER root
+
 # Create a directory for the SQLite database file
 RUN mkdir -p /metabase-data
 
-# Create the metabase user and group
-RUN groupadd -r metabase && useradd -r -g metabase metabase
-
 # Change ownership of the /metabase-data directory to metabase user/group
-RUN chown -R metabase:metabase /metabase-data
+RUN chown -R /metabase-data
 
 # Expose the default Metabase port
 EXPOSE 3000
