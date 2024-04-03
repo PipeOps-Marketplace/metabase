@@ -15,6 +15,3 @@ RUN chown -R root:root /metabase-data
 
 # Expose the default Metabase port
 EXPOSE 3000
-
-# Start Metabase
-CMD ["java", "-jar", "/app/metabase.jar"]
