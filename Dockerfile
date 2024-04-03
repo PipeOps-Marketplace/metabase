@@ -11,7 +11,7 @@ USER root
 RUN mkdir -p /metabase-data
 
 # Change ownership of the /metabase-data directory to metabase user/group
-RUN chown -R /metabase-data
+RUN chown -R root:root /metabase-data
 
 # Expose the default Metabase port
 EXPOSE 3000
