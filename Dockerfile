@@ -2,7 +2,6 @@
 FROM metabase/metabase:latest
 
 # Set Metabase to use SQLite
-ENV MB_DB_TYPE=sqlite
 ENV MB_DB_FILE=/metabase-data/metabase.db
 
 USER root
