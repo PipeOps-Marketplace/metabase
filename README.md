@@ -2,7 +2,7 @@
 
 This image contains the open-source version of Metabase. For the Metabase with all of the bells and whistles, check out [Metabase Enterprise](link-to-enterprise-version).
 
-[![Deploy on PipeOps](https://railway.app/button.svg)](https://railway.app/template/postgres)
+[![Deploy on PipeOps](https://pub-a1fbf367a4cd458487cfa3f29154ac93.r2.dev/Default.png)](https://railway.app/template/0ELOuE?referralCode=IQhE0B)
 
 To get started, check out our docs:
 
