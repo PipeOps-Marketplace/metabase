@@ -1,3 +1,5 @@
+# Metabase + SQLite On PipeOps
+
 **Metabase is the easy, open-source way for everyone in your company to ask questions and learn from data.**
 
 This image contains the open-source version of Metabase that uses SQLite. For the Metabase with all of the bells and whistles, check out [Metabase Enterprise](link-to-enterprise-version).
