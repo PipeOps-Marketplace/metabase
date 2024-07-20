@@ -1,5 +1,5 @@
 # Use the Metabase image as the base image
-FROM metabase/metabase:latest
+FROM metabase/metabase:v0.41.9
 
 # Set Metabase to use SQLite
 ENV MB_DB_FILE=/metabase-data/metabase.db
