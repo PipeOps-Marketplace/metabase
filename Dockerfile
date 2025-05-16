@@ -1,7 +1,7 @@
 # Use the Metabase image as the base image
 # FROM metabase/metabase:latest
-FROM metabase/metabase:v0.41.9
-
+# FROM metabase/metabase:v0.41.9
+FROM metabase/metabase:v0.49
 
 ARG MB_DB_FILE
 
